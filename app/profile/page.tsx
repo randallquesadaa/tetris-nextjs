@@ -26,7 +26,7 @@ const page = () => {
         </div>
       ) : (
         <div>
-          <p>Loading...</p>
+          <p>Page not found</p>
         </div>
       )
       )}

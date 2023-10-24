@@ -20,10 +20,15 @@ const page = () => {
     <div>
       {loading ? (
         <Spinner />
-      ) : (
+      ) : ( user ? (
         <div>
           <p>Hello {user.displayName}</p>
         </div>
+      ) : (
+        <div>
+          <p>Loading...</p>
+        </div>
+      )
       )}
     </div>
   )
